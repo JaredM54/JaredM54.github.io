@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* { margin: 0; padding: 0; height: 100%; width: 100%; font-family: ccapshad; }
+@font-face {
+    font-family: ccapshad;
+    src: url(ccapshad.ttf);
+}
+#background {
+    opacity: .12;
+    display: block;
+    pointer-events: none;
+}
+#backbox {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    font-size: 20vmin;
+    height: 20vmin;
+    -ms-transform: skew(0deg,-6deg);
+    -webkit-transform: skew(0deg,-6deg);
+    transform: skew(0deg,-6deg);
+    font-weight: 400;
+    background-color: orange;
+    overflow: hidden;
+}
+#linkbox {
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    font-size: 7vmin;
+    height: 7vmin;
+    -ms-transform: skew(0deg,-6deg);
+    -webkit-transform: skew(0deg,-6deg);
+    transform: skew(0deg,-6deg);
+    font-weight: 400;
+    background-color: orange;
+    overflow: hidden;
+    word-spacing: 30px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #000;
+}
+a:hover, a:active {
+    color: rgba(102,102,102,.90);
+}
+</style>
+</head>
+
+<img src="static3.gif" id="background">
+<div id="backbox">
+	jared's world
+</div>
+<div id="linkbox">
+	<a href="">tortoise</a>
+        <a href="">owncloud</a>
+</div>
+</html>
