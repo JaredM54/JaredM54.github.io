@@ -1,62 +1,78 @@
-<!DOCTYPE html>
-<title>Jared's World</title>
-<html>
-<head>
 <style>
-* { margin: 0; padding: 0; height: 100%; width: 100%; font-family: ccapshad; }
-@font-face {
-    font-family: ccapshad;
-    src: url(ccapshad.ttf);
+@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
 }
-#background {
-    opacity: .12;
-    display: block;
-    pointer-events: none;
-}
-#backbox {
-    position: absolute;
-    text-align: center;
-    top: 30%;
-    font-size: 20vmin;
-    height: 20vmin;
-    -ms-transform: skew(0deg,-6deg);
-    -webkit-transform: skew(0deg,-6deg);
-    transform: skew(0deg,-6deg);
-    font-weight: 400;
-    background-color: orange;
-    overflow: hidden;
-}
-#linkbox {
-    position: absolute;
-    text-align: center;
-    top: 55%;
-    font-size: 7vmin;
-    height: 7vmin;
-    -ms-transform: skew(0deg,-6deg);
-    -webkit-transform: skew(0deg,-6deg);
-    transform: skew(0deg,-6deg);
-    font-weight: 400;
-    background-color: orange;
-    overflow: hidden;
-    word-spacing: 30px;
-}
-a:link, a:visited {
-    text-decoration: none;
-    color: #000;
-}
-a:hover, a:active {
-    color: rgba(102,102,102,.90);
-}
-</style>
-</head>
 
-<img src="static3.gif" id="background">
-<div id="backbox">
-	jared's world
-</div>
-<div id="linkbox">
-	<a href="tortoise.html">tortoise</a>
-        <a href="mailto:jaredsworldmail@gmail.com">contact</a>
-        <a href="http://twitter.com/jaredm54">twitter</a>
-</div>
-</html>
+html, body {
+  margin: 0;
+  background-color: #5F6164;
+}
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+section #services h2 {
+  margin: 80px 0px 40px;
+  color: #fff;
+  font-size: 4em;
+  font-family: 'Raleway Dots', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+section #services li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+section #services li div {
+  width: 120px;
+  height: 120px;
+  color: #ef8974;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 120px;
+  background-color: #fff;
+  transition: all .6s ease;
+  border-radius: 20px;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+section #services li span {
+  width: 120px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: #fff;
+  font-family: 'Advent Pro', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+</style>
+<section>
+  <ul id='services'>
+    <h2>Jared Marcuccilli</h2>
+    <li>
+      <div class='entypo-facebook'></div>
+      <span>Facebook</span>
+    </li>
+    <li>
+      <div class='entypo-twitter'></div>
+      <span>Twitter</span>
+    </li>
+    <li>
+      <div class='entypo-mail'></div>
+      <span>Email</span>
+    </li>
+  </ul>
+</section>
