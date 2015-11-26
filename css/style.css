@@ -2,12 +2,110 @@
 
 body {
   margin: 0;
-  font: normal 75% Arial, Helvetica, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 canvas {
   display: block;
   vertical-align: bottom;
+}
+#info {
+    margin-top:400px; /*Info bar distance from top*/
+    background-color:rgba(20, 20, 20, 0.3);
+    width:auto;
+    height:100px;
+}
+
+#welcome {
+    padding-top:5px;
+}
+
+#welcome h1 {
+    letter-spacing:10px;
+	margin-left:300px;
+    width:450px;
+}
+#welcome h2 {
+    font-size:250%;
+    margin-top:4px;
+    letter-spacing:10px;
+    margin-top:4px;
+	margin-left:300px;
+    width:450px;
+    float:left;
+    text-align:left;
+}
+
+#debug {
+    padding-left:350px;
+    margin-top:0px;
+    opacity:0.1;
+}
+
+
+#bookmarks {
+    display:inline;
+    float:left;
+}
+
+/*START OF BOOKMARKS*/
+
+#facebook h1, #linustt h1, #youtube h1, #gmail h1 {
+    margin-top:22px;
+    transition:200ms;
+    color:#f2f2f2;
+}
+
+#facebook {
+    margin-top:-42px;
+    margin-left:200px;
+    height:100px;
+    width:100px;
+    float:left;
+    text-align:center;
+    font-size:150%;
+} #facebook:hover h1 {
+    color:rgb(78, 105, 162);
+    transition:90ms;
+} 
+
+#youtube {
+    margin-top:-42px;
+    margin-left:13px;
+    height:100px;
+    width:100px;
+    float:left;
+    text-align:center;
+    font-size:150%;
+} #youtube:hover h1 {
+      transition:90ms;
+      color:rgb(230, 33, 23);
+}
+
+#gmail {
+    margin-top:-42px;
+    margin-left:13px;
+    height:100px;
+    width:100px;
+    float:left;
+    text-align:center;
+    font-size:150%;
+} #gmail:hover h1 {
+      transition:90ms;
+      color:rgb(214, 73, 55);
+}
+
+#linustt {
+    margin-top:-42px;
+    margin-left:30px;
+    height:100px;
+    width:100px;
+    float:left;
+    text-align:center;
+    font-size:150%;
+} #linustt:hover h1 {
+      transition:90ms;
+      color:rgb(247, 74, 20);
 }
 /* ---- particles.js container ---- */
 
