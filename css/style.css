@@ -11,7 +11,7 @@
 
 #info {
     margin-top:400px; /*Info bar distance from top*/
-    color: #0066cc;
+    background-color:#0066cc;
     width:auto;
     height:150px;
 }
