@@ -1,14 +1,24 @@
-/* ---- reset ---- */
+* {
+    margin:0px;
+    border:0px;
+    padding:0px; 
+    /* ^ Resets the default values */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    color:rgb(240,240,240);
+    text-decoration:none;
+    /* ^ Fixes link decoration */
+}
 
 body {
-  margin: 0;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-image: url(1423043145037.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
 
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
 #info {
     margin-top:400px; /*Info bar distance from top*/
     background-color:rgba(20, 20, 20, 0.3);
