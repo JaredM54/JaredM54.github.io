@@ -88,7 +88,7 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.015em;
 }
-//h1::after {
+h1::after {
   content: '';
   width: 80px;
   display: block;
