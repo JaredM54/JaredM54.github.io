@@ -85,7 +85,7 @@ body {
 h1 {
   text-transform: uppercase;
   font-size: 85px;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.015em;
 }
 h1::after {
@@ -108,7 +108,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.015em;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1;
   color: #fff;
   text-decoration: none;
