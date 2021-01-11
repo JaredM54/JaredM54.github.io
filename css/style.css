@@ -83,7 +83,7 @@ body {
   text-align: center;
 }
 h1 {
-  text-transform: uppercase;
+  #text-transform: uppercase;
   font-size: 85px;
   font-weight: 500;
   letter-spacing: 0.015em;
